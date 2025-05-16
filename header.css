@@ -1,0 +1,96 @@
+#header {
+}
+
+#header nav {
+    display: flex;
+    align-items: center;
+    padding: 2rem 6rem;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+#header nav h1 {
+
+}
+
+#header nav .nav-items {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#header nav .nav-items .active {
+    text-decoration: underline;
+}
+
+#header .nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#header form {
+    width: 80%;
+    padding: 2px 6px;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #3c3c3c;
+    border-radius: 4px;
+}
+
+#header header {
+    padding: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+#header header .categories {
+    width: 100%;
+    max-width: 10rem;
+    height: 100%;
+    border-right: 1px solid #d3d3d3;
+    padding-right: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#header header .categories li {
+    cursor: pointer;
+}
+
+#header header .slider-container {
+    position: relative;
+    width: 80%;
+}
+
+#header header .slider-container .slide {
+    display: flex;
+    height: 300px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+#header header .slider-container .slide .slide-image{
+    width: 40%;
+
+
+}
+
+#header header .slider-container .slide .content {
+    flex: 1;
+    background: linear-gradient(to right, #1a1a1a 90%, black 100%);
+    color: #fefefe;
+    padding: 2rem;
+}
+
+#header header .slider-container .slide .content a{
+    color: white;
+    display: flex;
+    gap: 8px;
+
+}
