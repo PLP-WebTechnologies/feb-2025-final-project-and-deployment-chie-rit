@@ -1,0 +1,60 @@
+#cart {
+    padding: 3rem 6rem;
+}
+
+#cart table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+table th, td {
+    padding:0.75rem 1.25rem;
+    text-align: center;
+}
+
+table tfoot button {
+    margin: 0 auto;
+}
+
+#cart .cart-footer {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+#cart .cart-footer form {
+    display: flex;
+    align-items: first baseline;
+    gap: 1rem;
+}
+
+#cart .cart-footer input {
+    width: 40%;
+}
+
+#cart .cart-footer .cart-receipt {
+    width: 100%;
+    max-width: 40rem;
+    box-shadow: 0px 0px 2px 0px rgba(26,26,26,0.75);
+    padding: 1rem 2rem;
+}
+
+
+#cart .cart-footer .cart-receipt h5 {
+    text-align: center;
+}
+#cart .cart-footer .cart-receipt .product-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+#cart .cart-footer .cart-receipt hr {
+    border-color: #c3c3c3;
+}
+
+#cart .cart-footer .cart-receipt button {
+    margin: 20px auto;
+}

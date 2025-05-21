@@ -1,0 +1,78 @@
+input[type='checkbox'], input[type='radio'] {
+    width: fit-content;
+    display: block;
+
+}
+
+
+#checkout {
+    padding: 3rem 6rem;
+}
+
+#checkout h5 {
+    margin-bottom: 1rem;
+}
+
+#checkout form {
+    width: 100%;
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    margin: 0px auto;
+}
+
+#checkout form  .user-form{
+    width: 100%;
+    max-width: 40rem;
+}
+
+#checkout form .user-form .save {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 12px;
+    margin: 12px auto;
+}
+
+#checkout form .checkout-form {
+    width: 100%;
+    max-width: 25rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 2px 0px rgba(26,26,26,0.75);
+}
+
+#checkout form .checkout-form .checkout-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+#checkout form .checkout-form fieldset{
+    padding: 4px;
+    margin:12px 0 ;
+    border: none;
+
+}
+
+#checkout form .checkout-form fieldset label{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 12px;
+}
+
+#checkout form .checkout-form .coupon-form input{
+    width: 40%;
+}
+
+
+#checkout form .checkout-form .coupon-form{
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+}
+
+#checkout form .checkout-form .order-button {
+    margin: 20px auto;
+}

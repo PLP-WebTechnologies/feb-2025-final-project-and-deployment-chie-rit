@@ -1,0 +1,127 @@
+img {
+    display: block;
+}
+
+#product {
+    width: 100%;
+    padding: 3rem 6rem;
+}
+
+#product .product-card {
+    width: 100%;
+    max-width: 20rem;
+}
+
+#product hr {
+    border-color: #4d4d4d;
+}
+
+#product p{
+    margin-bottom: 2rem;
+    color: #3c3c3c;
+}
+
+#product p a .active {
+    color: #1a1a1a;
+}
+
+#product .product {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+
+}
+
+#product .carousel-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#product .product .carousel-indicator img{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1rem;
+}
+
+#product .rating {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 1rem 0;
+}
+
+#product .rating .rating-container {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+#product .rating .availability {
+    color: #305cde;
+}
+
+#product .variations .colors li{
+    padding: 0.75rem; 
+    border-radius: 100%;
+}
+
+#product .variations .colors {
+    margin: 0.825rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+#product .variations .colors .color-choice{
+    display: flex;
+    align-items: center;
+    gap: 0.825rem;
+    cursor: pointer;
+}
+
+#product .variations .colors .color-choice .active {
+    border: 2px solid #3c3c3c;
+
+}
+
+#product .variations .colors .color-choice .red {
+    background-color: #ff5733;
+}
+
+#product .variations .colors .color-choice .blue {
+    background-color: #89cff0;
+
+}
+
+#product .variations .sizes ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#product .variations .sizes ul li{
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+#product .variations .sizes ul .active{
+    border-color: #1a1a1a;
+
+}
+
+#product footer {
+    margin: 0.825rem 0;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+#product footer input {
+    width: 20%;
+}
